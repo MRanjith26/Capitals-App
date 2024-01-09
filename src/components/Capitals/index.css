@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  background-color: #93c5fd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  max-width: 350px;
+}
+.content-container {
+  margin: 20px;
+}
+.form-control {
+  width: 150px;
+  height: 35px;
+  border-radius: 7px;
+  font-family: 'Roboto';
+  padding: 8px;
+  font-size: 13px;
+  color: #323f4b;
+  font-weight: 500;
+  border: 1px solid #cbd2d9;
+}
+.text {
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: #323f4b;
+  padding: 20px 10px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #323f4b;
+}
+.label {
+  font-family: 'Roboto';
+  font-size: 13px;
+}
+@media screen and (min-width: 768px) {
+  .content-container {
+    margin: 50px;
+  }
+  .form-control {
+    width: 250px;
+    height: 45px;
+    font-size: 14px;
+  }
+  .heading {
+    font-family: 'Roboto';
+    font-size: 45px;
+    color: #323f4b;
+  }
+  .card {
+    max-width: 1000px;
+  }
+  .text {
+    font-family: 'Roboto';
+    font-size: 34px;
+    color: #323f4b;
+    padding: 20px 10px;
+  }
+  .label {
+    font-size: 20px;
+  }
+}
